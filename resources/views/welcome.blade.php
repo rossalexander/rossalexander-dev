@@ -24,6 +24,7 @@
             font-family: 'Work Sans', sans-serif;
         }
     </style>
+    @livewireStyles
 </head>
 <body class="antialiased">
 
@@ -35,5 +36,6 @@
 <footer class="bg-slate-900 w-full mx-auto p-8 text-center text-slate-500">
     <p>test</p>
 </footer>
+@livewireScripts
 </body>
 </html>
