@@ -1,13 +1,14 @@
-<div class="w-full h-screen flex items-center">
-    <div class="max-w-5xl mx-auto p-8">
-        <p class="text-7xl text-slate-700 font-bold">Ross Alexander</p>
-        <p class="leading-normal my-5 text-3xl text-slate-600 tracking-tighter">I'm a developer specializing
+<div class="w-full h-screen flex items-center bg-slate-900">
+    <div id="intro" class="max-w-[1200px] mx-auto p-4 sm:p-8 w-full">
+        <p class="text-3xl sm:text-6xl text-slate-400 tracking-tight">Ross Alexander</p>
+        <p class="text-5xl sm:text-8xl text-slate-300 tracking-tight py-4">Full Stack Developer</p>
+        <span class="text-2xl sm:text-5xl text-slate-400 tracking-tight sm:leading-snug">specializing
             in <span
-                class="text-rose-500 font-bold">PHP</span>,
-            <span class="text-rose-500 font-bold">Laravel</span> and
-            <span class="text-rose-500 font-bold">Vue</span>, <br>with a passion for <span
                 class="text-rose-400">data</span> and
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-300 to-rose-600">test-driven development</span>.
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-300 to-rose-600">test-driven development</span>
+            with <span
+                class="text-rose-500 font-bold">PHP</span>,
+            <span class="text-rose-500 font-bold">Laravel</span> and <span class="text-rose-500 font-bold">Vue</span>.
         </p>
     </div>
 </div>

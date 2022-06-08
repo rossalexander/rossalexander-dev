@@ -1,1 +1,4 @@
-<li class="before:content-['▹'] text-rose-500"><span class="text-slate-400">{{$slot}}</span></li>
+<div class="relative">
+<li {{ $attributes->merge(['class' => 'before:absolute before:content-["▹"] before:text-rose-500 before:left-0 pl-6']) }}>{{$slot}}</li>
+{{--<li class="before:absolute before:content-['▹'] before:text-rose-500 before:left-0 pl-6">{{$slot}}</li>--}}
+</div>

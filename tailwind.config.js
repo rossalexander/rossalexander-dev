@@ -6,7 +6,8 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            sans: ['Work Sans'],
+            'sans': ['Work Sans'],
+            'mono': ['Roboto Mono, monospace'],
         },
         extend: {},
     },
