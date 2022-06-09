@@ -2248,13 +2248,7 @@ $(document).ready(function () {
       });
       $(this).off('scroll');
     }
-  }); // $("#scroll").click(function() {
-  //     const sections = ['about', 'experience', 'contact'];
-  //     for (let i = 0; i < sections.length; i++) {
-  //         console.log(sections[i]);
-  //         location.href = "#" + i.valueOf()
-  //     }
-  // });
+  });
 });
 
 /***/ }),

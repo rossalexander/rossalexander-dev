@@ -3,7 +3,7 @@
     <div class="flex w-full space-x-6 items-center">
         <a id="l1" class="hidden hover:text-rose-500 transition-colors" href="#about">About</a>
         <a id="l2" class="hidden hover:text-rose-500 transition-colors" href="#experience">Experience</a>
-        <a id="l3" class="hidden hover:text-rose-500 transition-colors" href="#contact">Contact</a>
+        <a id="l3" class="hidden hover:text-rose-500 transition-colors" href="#connect">Connect</a>
     </div>
 
     <div id="lr" class="hidden border border-rose-600 rounded-sm">

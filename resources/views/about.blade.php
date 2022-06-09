@@ -8,7 +8,7 @@
                 <x-title>About</x-title>
 
                 <p>
-                    Since launching a web-development business in 2016, I have accrued clients from Europe, the United States, and Canada. Projects I've worked on range from custom ecommerce to data-driven development.
+                    Since launching a web-development business in 2016, I have accrued clients from Europe, the United States, and Canada. Projects I've worked on range from custom ecommerce to database design and data visualization.
                 </p>
                 <p>Technologies I know and love:</p>
                 <ul class="grid grid-cols-2 text-base sm:text-2xl gap-y-0 sm:gap-y-4">

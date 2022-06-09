@@ -541,6 +541,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-0 {
   margin-top: 0px;
 }
+.mt-96 {
+  margin-top: 24rem;
+}
 .block {
   display: block;
 }
@@ -591,6 +594,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .h-12 {
   height: 3rem;
+}
+.h-32 {
+  height: 8rem;
 }
 .min-h-\[320px\] {
   min-height: 320px;

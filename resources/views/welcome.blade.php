@@ -38,21 +38,11 @@
 </head>
 <body class="antialiased bg-slate-900 relative">
 
-<div class="fixed h-full w-full">
-    <a onclick="myScroll()" id="scroll"
-       class="hidden text-center fixed z-50 bottom-4 sm:bottom-20 text-slate-300 left-0 right-0 w-16 h-16 mx-auto cursor-pointer bg-center bg-contain bg-no-repeat transition-transform"
-       style="background-image:url('/media/arrow.svg')">
-        <span id="ping" class="flex h-2 w-2">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-10"></span>
-        </span>
-    </a>
-</div>
-
 @include('navigation')
 @include('intro')
 @include('about')f
 @include('experience')
-@include('contact')
+@include('connect')
 
 <footer class="bg-slate-900 w-full mx-auto p-8 text-center text-slate-500">
     <div class="max-w-4xl b mx-auto flex flex-col items-center space-y-4 justify-center">
@@ -70,9 +60,21 @@
         </div>
     </div>
 </footer>
+
+<div class="fixed h-full w-full">
+    <a onclick="myScroll()" id="scroll"
+       class="hidden text-center fixed z-50 bottom-4 sm:bottom-20 text-slate-300 left-0 right-0 w-16 h-16 mx-auto cursor-pointer bg-center bg-contain bg-no-repeat transition-transform"
+       style="background-image:url('/media/arrow.svg')">
+        <span id="ping" class="flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-10"></span>
+        </span>
+    </a>
+</div>
+
+
 <script>
     let x = 0;
-    const sections = ['', 'about', 'experience', 'contact'];
+    const sections = ['', 'about', 'experience', 'connect'];
 
     function myScroll() {
         $('#ping').remove();

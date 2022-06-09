@@ -1,5 +1,4 @@
 import './bootstrap';
-
 $(document).ready(function () {
     $("#intro").show().delay(1000).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
     $("#l1").show().delay(1500).css('opacity', 0).slideDown().animate({opacity: 1}, {queue: true, duration: 'slow'});
@@ -25,15 +24,4 @@ $(document).ready(function () {
             $(this).off('scroll');
         }
     });
-
-
-
-    // $("#scroll").click(function() {
-    //     const sections = ['about', 'experience', 'contact'];
-    //     for (let i = 0; i < sections.length; i++) {
-    //         console.log(sections[i]);
-    //         location.href = "#" + i.valueOf()
-    //     }
-    // });
-
 });

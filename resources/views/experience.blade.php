@@ -37,14 +37,13 @@
                     <div class="w-full sm:w-4/5 min-h-[320px]">
                         <x-tab id="1" title="Founder / Full Stack Developer" date="2016 - present">
                             <ul class="w-full flex flex-col space-y-6 relative text-slate-400 text-sm sm:text-xl">
-                                <x-list-item>Development of custom ecommerce platform (PHP, Laravel, Vue) for an
-                                    international organization based in the United States
+                                <x-list-item>Development of custom ecommerce platforms for
+                                    international organizations in the United States and Canada
                                 </x-list-item>
-                                <x-list-item>Database design and visualization project for a global trade database for
-                                    Wageningen University (Netherlands)
+                                <x-list-item>Database design and visualization projects for Universities in the
+                                    Netherlands and Sweden
                                 </x-list-item>
-                                <x-list-item>Development of various web projects for Wageningen University, Utrecht University and
-                                    Lund University
+                                <x-list-item>Development of various web projects for universities in the Netherlands
                                 </x-list-item>
                             </ul>
                         </x-tab>
