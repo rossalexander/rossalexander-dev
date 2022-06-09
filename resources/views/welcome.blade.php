@@ -37,18 +37,17 @@
     <link rel="stylesheet" href="/css/app.css">
 </head>
 <body class="antialiased bg-slate-900 relative">
-{{--<div class="fixed h-full w-full">--}}
-{{--    <a id="email" class="font-mono fixed bottom-40 right-0 rotate-90 text-base text-slate-400" href="mailto:email@rossalexander.dev">email @ rossalexander.dev</a>--}}
-{{--</div>--}}
+
 <div class="fixed h-full w-full">
     <a onclick="myScroll()" id="scroll"
-       class="text-center fixed bottom-20 text-slate-300 left-0 right-0 w-16 h-16 mx-auto cursor-pointer bg-center bg-contain bg-no-repeat transition-transform"
+       class="text-center fixed z-50 bottom-4 sm:bottom-20 text-slate-300 left-0 right-0 w-16 h-16 mx-auto cursor-pointer bg-center bg-contain bg-no-repeat transition-transform"
        style="background-image:url('/media/arrow.svg')">
         <span id="ping" class="flex h-2 w-2">
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-25"></span>
         </span>
     </a>
 </div>
+
 @include('navigation')
 @include('intro')
 @include('about')f
