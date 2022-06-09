@@ -7,6 +7,6 @@
     </div>
 
     <div id="lr" class="border border-rose-600 rounded-sm">
-        <a class="font-mono animate-pulse block p-2 sm:p-4 text-rose-500" href="/media/Ross-Alexander-CV-may-2022.pdf">Résumé</a>
+        <a class="font-mono animate-pulse block p-2 text-rose-500" href="/media/Ross-Alexander-CV-may-2022.pdf">Résumé</a>
     </div>
 </nav>

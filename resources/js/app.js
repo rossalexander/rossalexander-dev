@@ -6,10 +6,9 @@ $(document).ready(function () {
     $("#l2").delay(1800).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
     $("#l3").delay(2100).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
     $("#lr").delay(2400).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
-    // $("#email").delay(2800).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
+    $("#scroll").delay(3000).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
 
     $(window).scroll(function () {
-        console.log($(window).scrollTop());
         var topDivHeight = $("#about").height();
         var viewPortSize = $(window).height();
 
@@ -26,4 +25,15 @@ $(document).ready(function () {
             $(this).off('scroll');
         }
     });
+
+
+
+    // $("#scroll").click(function() {
+    //     const sections = ['about', 'experience', 'contact'];
+    //     for (let i = 0; i < sections.length; i++) {
+    //         console.log(sections[i]);
+    //         location.href = "#" + i.valueOf()
+    //     }
+    // });
+
 });

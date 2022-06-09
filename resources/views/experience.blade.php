@@ -57,9 +57,6 @@
                                     and
                                     <a href="https://uu.nl" class="link" target="_blank">Utrecht University</a>
                                 </x-list-item>
-                                <x-list-item>
-                                    and more...
-                                </x-list-item>
                             </ul>
                         </x-tab>
 
@@ -77,9 +74,6 @@
                                     Development of (Google Maps API, HTML, SCSS, Javascript) for for <a
                                         href="https://carasharratttravel.com" class="link" target="_blank">Cara Sharratt
                                         Travel</a>
-                                </x-list-item>
-                                <x-list-item>
-                                    and more...
                                 </x-list-item>
                             </ul>
                         </x-tab>

@@ -4,8 +4,8 @@
         <p class="text-5xl sm:text-8xl text-slate-300 tracking-tight py-4">Full Stack Developer</p>
         <span class="text-2xl sm:text-5xl text-slate-400 tracking-tight sm:leading-snug">specializing
             in <span
-                class="text-rose-400">data</span> and
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-300 to-rose-600">test-driven development</span>
+                class="text-rose-500">data</span> and
+            <span class="text-rose-500">test-driven development</span>
             with <span
                 class="text-rose-500 font-bold">PHP</span>,
             <span class="text-rose-500 font-bold">Laravel</span> and <span class="text-rose-500 font-bold">Vue</span>.

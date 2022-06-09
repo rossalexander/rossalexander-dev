@@ -27,6 +27,10 @@
         [x-cloak] {
             display: none !important;
         }
+
+        .flip {
+            transform: rotateX(-180deg);
+        }
     </style>
 
     <!-- Styles -->
@@ -36,9 +40,18 @@
 {{--<div class="fixed h-full w-full">--}}
 {{--    <a id="email" class="font-mono fixed bottom-40 right-0 rotate-90 text-base text-slate-400" href="mailto:email@rossalexander.dev">email @ rossalexander.dev</a>--}}
 {{--</div>--}}
+<div class="fixed h-full w-full">
+    <a onclick="myScroll()" id="scroll"
+       class="text-center fixed bottom-20 text-slate-300 left-0 right-0 w-16 h-16 mx-auto cursor-pointer bg-center bg-contain bg-no-repeat transition-transform"
+       style="background-image:url('/media/arrow.svg')">
+        <span id="ping" class="flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-25"></span>
+        </span>
+    </a>
+</div>
 @include('navigation')
 @include('intro')
-@include('about')
+@include('about')f
 @include('experience')
 @include('contact')
 
@@ -58,5 +71,23 @@
         </div>
     </div>
 </footer>
+<script>
+    let x = 0;
+    const sections = ['', 'about', 'experience', 'contact'];
+    function myScroll() {
+        $('#ping').remove();
+        x++;
+        if (x === sections.length) {
+            x = 0;
+        }
+        if (x === 0) {
+            $('#scroll').toggleClass('flip')
+        }
+        if (x === 3) {
+            $('#scroll').toggleClass('flip')
+        }
+        location.href = "#" + sections[x]
+    }
+</script>
 </body>
 </html>
