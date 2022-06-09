@@ -1,12 +1,12 @@
 import './bootstrap';
 
 $(document).ready(function () {
-    $("#intro").delay(1000).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
-    $("#l1").delay(1500).css('opacity', 0).slideDown().animate({opacity: 1}, {queue: true, duration: 'slow'});
-    $("#l2").delay(1800).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
-    $("#l3").delay(2100).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
-    $("#lr").delay(2400).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
-    $("#scroll").delay(3000).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
+    $("#intro").show().delay(1000).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
+    $("#l1").show().delay(1500).css('opacity', 0).slideDown().animate({opacity: 1}, {queue: true, duration: 'slow'});
+    $("#l2").show().delay(1800).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
+    $("#l3").show().delay(2100).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
+    $("#lr").show().delay(2400).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
+    $("#scroll").show().delay(3000).css('opacity', 0).animate({opacity: 1}, {queue: true, duration: 'slow'});
 
     $(window).scroll(function () {
         var topDivHeight = $("#about").height();

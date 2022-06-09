@@ -2167,37 +2167,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 $(document).ready(function () {
-  $("#intro").delay(1000).css('opacity', 0).animate({
+  $("#intro").show().delay(1000).css('opacity', 0).animate({
     opacity: 1
   }, {
     queue: true,
     duration: 'slow'
   });
-  $("#l1").delay(1500).css('opacity', 0).slideDown().animate({
+  $("#l1").show().delay(1500).css('opacity', 0).slideDown().animate({
     opacity: 1
   }, {
     queue: true,
     duration: 'slow'
   });
-  $("#l2").delay(1800).css('opacity', 0).animate({
+  $("#l2").show().delay(1800).css('opacity', 0).animate({
     opacity: 1
   }, {
     queue: true,
     duration: 'slow'
   });
-  $("#l3").delay(2100).css('opacity', 0).animate({
+  $("#l3").show().delay(2100).css('opacity', 0).animate({
     opacity: 1
   }, {
     queue: true,
     duration: 'slow'
   });
-  $("#lr").delay(2400).css('opacity', 0).animate({
+  $("#lr").show().delay(2400).css('opacity', 0).animate({
     opacity: 1
   }, {
     queue: true,
     duration: 'slow'
   });
-  $("#scroll").delay(3000).css('opacity', 0).animate({
+  $("#scroll").show().delay(3000).css('opacity', 0).animate({
     opacity: 1
   }, {
     queue: true,

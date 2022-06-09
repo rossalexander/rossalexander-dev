@@ -36,44 +36,28 @@
                     </div>
                     <div class="w-full sm:w-4/5 min-h-[320px]">
                         <x-tab id="1" title="Founder / Full Stack Developer" date="2016 - present">
-                            <ul class="w-full flex flex-col space-y-6 relative text-slate-400">
-                                <x-list-item>Development of custom ecommerce platform (PHP, Laravel, Vue) for <a
-                                        class="link"
-                                        target="_blank"
-                                        href="https://www.royalacademyofdance.org/">Royal
-                                        Academy of Dance</a>, an international dance organization
+                            <ul class="w-full flex flex-col space-y-6 relative text-slate-400 text-sm sm:text-xl">
+                                <x-list-item>Development of custom ecommerce platform (PHP, Laravel, Vue) for an
+                                    international organization based in the United States
                                 </x-list-item>
-                                <x-list-item>Database design and visualization project for <a class="link"
-                                                                                              target="_blank"
-                                                                                              href="https://wur.nl">Wageningen
-                                        University</a>
-                                    involving interactive global trade database
+                                <x-list-item>Database design and visualization project for a global trade database for
+                                    Wageningen University (Netherlands)
                                 </x-list-item>
-                                <x-list-item>
-                                    Development of various data-driven web projects for <a target="_blank"
-                                                                                           href="https://www.lunduniversity.lu.se/"
-                                                                                           class="link">Lund
-                                        University</a>
-                                    and
-                                    <a href="https://uu.nl" class="link" target="_blank">Utrecht University</a>
+                                <x-list-item>Development of various web projects for Wageningen University, Utrecht University and
+                                    Lund University
                                 </x-list-item>
                             </ul>
                         </x-tab>
 
                         <x-tab id="2" title="Frontend Developer" date="2012 - 2016">
                             <ul class="w-full flex flex-col space-y-3 relative text-slate-400">
-                                <x-list-item>
-                                    Development (HTML, SCSS, Javascript) for various research projects for <a
-                                        href="https://uu.nl" class="link" target="_blank">Wageningen University</a>.
+                                <x-list-item>Development (HTML, SCSS, Javascript) of multiple research project websites
+                                    for various universities in the Netherlands
                                 </x-list-item>
-                                <x-list-item>
-                                    Development of (HTML, SCSS, Javascript) for for <a
-                                        href="https://wziinc.com" class="link" target="_blank">WZI Inc.</a>
+                                <x-list-item>Development of (HTML, SCSS, Javascript) for websites in the United States
                                 </x-list-item>
-                                <x-list-item>
-                                    Development of (Google Maps API, HTML, SCSS, Javascript) for for <a
-                                        href="https://carasharratttravel.com" class="link" target="_blank">Cara Sharratt
-                                        Travel</a>
+                                <x-list-item>Development of (Google Maps API, HTML, SCSS, Javascript) for a travel
+                                    advisor website
                                 </x-list-item>
                             </ul>
                         </x-tab>

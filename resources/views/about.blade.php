@@ -3,12 +3,12 @@
         class="max-w-7xl mx-auto px-4 sm:p-8 flex items-center justify-center flex-col sm:flex-row w-full">
 
         <!-- Details -->
-        <div class="flex flex-row mr-0 sm:mr-8">
+        <div class="flex flex-row mr-0 sm:mr-24">
             <div class="flex flex-col text-base sm:text-2xl space-y-4 sm:space-y-8 text-slate-400 w-full relative">
                 <x-title>About</x-title>
 
                 <p>
-                    Since launching a web-development business in 2016, I have accrued clients from Europe, the United States, and Canada. Current services offered are focused in ecommerce and data-driven development.
+                    Since launching a web-development business in 2016, I have accrued clients from Europe, the United States, and Canada. Projects I've worked on range from custom ecommerce to data-driven development.
                 </p>
                 <p>Technologies I know and love:</p>
                 <ul class="grid grid-cols-2 text-base sm:text-2xl gap-y-0 sm:gap-y-4">

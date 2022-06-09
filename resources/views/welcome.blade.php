@@ -40,10 +40,10 @@
 
 <div class="fixed h-full w-full">
     <a onclick="myScroll()" id="scroll"
-       class="text-center fixed z-50 bottom-4 sm:bottom-20 text-slate-300 left-0 right-0 w-16 h-16 mx-auto cursor-pointer bg-center bg-contain bg-no-repeat transition-transform"
+       class="hidden text-center fixed z-50 bottom-4 sm:bottom-20 text-slate-300 left-0 right-0 w-16 h-16 mx-auto cursor-pointer bg-center bg-contain bg-no-repeat transition-transform"
        style="background-image:url('/media/arrow.svg')">
         <span id="ping" class="flex h-2 w-2">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-25"></span>
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-10"></span>
         </span>
     </a>
 </div>
@@ -73,6 +73,7 @@
 <script>
     let x = 0;
     const sections = ['', 'about', 'experience', 'contact'];
+
     function myScroll() {
         $('#ping').remove();
         x++;
