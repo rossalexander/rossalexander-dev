@@ -1,12 +1,12 @@
 <template>
-    <Head><title>About</title></Head>
-    <h1>About</h1>
+    <Head><title>Connect</title></Head>
+    <h1>Connect</h1>
 </template>
 
 <script>
 
 export default {
-    name: "About",
+    name: "Connect",
 }
 </script>
 
