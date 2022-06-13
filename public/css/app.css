@@ -530,6 +530,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-4 {
   margin-bottom: 1rem;
 }
+.mr-16 {
+  margin-right: 4rem;
+}
+.mr-32 {
+  margin-right: 8rem;
+}
+.mr-24 {
+  margin-right: 6rem;
+}
+.mt-8 {
+  margin-top: 2rem;
+}
 .block {
   display: block;
 }
@@ -560,6 +572,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-px {
   height: 1px;
 }
+.h-full {
+  height: 100%;
+}
 .min-h-\[320px\] {
   min-height: 320px;
 }
@@ -583,6 +598,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .max-w-\[1200px\] {
   max-width: 1200px;
+}
+.max-w-5xl {
+  max-width: 64rem;
 }
 @-webkit-keyframes pulse {
 
@@ -608,6 +626,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .flex-col {
   flex-direction: column;
+}
+.place-content-center {
+  place-content: center;
+}
+.place-items-center {
+  place-items: center;
 }
 .items-center {
   align-items: center;
@@ -657,6 +681,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-b-2 {
   border-bottom-width: 2px;
 }
+.border-b {
+  border-bottom-width: 1px;
+}
 .border-rose-500 {
   --tw-border-opacity: 1;
   border-color: rgb(244 63 94 / var(--tw-border-opacity));
@@ -676,6 +703,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-slate-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+.bg-indigo-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 46 129 / var(--tw-bg-opacity));
+}
+.bg-zinc-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 24 27 / var(--tw-bg-opacity));
+}
+.bg-stone-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 25 23 / var(--tw-bg-opacity));
+}
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 .bg-cover {
   background-size: cover;
@@ -754,6 +797,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 .font-bold {
   font-weight: 700;

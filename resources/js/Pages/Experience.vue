@@ -1,12 +1,19 @@
 <template>
-    <Head><title>Experience</title></Head>
-    <h1>Experience</h1>
+    <Page title="Experience">
+        <div>test</div>
+    </Page>
+
+
 </template>
 
 <script>
+import Page from "../Shared/Page";
 
 export default {
     name: "Experience",
+    components: {
+        Page
+    }
 }
 </script>
 

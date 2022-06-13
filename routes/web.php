@@ -19,7 +19,9 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return Inertia::render('About');
+    return Inertia::render('About', [
+        'technologies' => ['PHP', 'MySQL', 'Laravel', 'C#', 'Vue.js', 'Livewire']
+    ]);
 });
 
 Route::get('/experience', function () {

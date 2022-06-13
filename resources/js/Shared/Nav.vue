@@ -1,5 +1,5 @@
 <template>
-    <nav class="flex my-4 space-x-4">
+    <nav class="flex space-x-4 p-4">
         <NavLink href="/about" :active="$page.component === 'About'">About</NavLink>
         <NavLink href="/experience" :active="$page.component === 'Experience'">Experience</NavLink>
         <NavLink href="/projects" :active="$page.component === 'Projects'">Projects</NavLink>

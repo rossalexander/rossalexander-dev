@@ -1,9 +1,10 @@
 <template>
-    <header>
-        <Nav/>
-    </header>
-
-    <slot/>
+    <div class="h-screen grid">
+        <header>
+            <Nav/>
+        </header>
+        <slot/>
+    </div>
 </template>
 
 <script>
