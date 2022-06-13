@@ -2,8 +2,8 @@
     <Page title="About">
         <div class="flex flex-col sm:flex-row items-center">
             <div class="sm:mr-24 space-y-4">
-                <p>Since launching a web-development business in 2016, I have accrued clients from Europe, the United
-                    States, and Canada. Projects I've worked on range from custom ecommerce to database design and data
+                <p>Since launching a web-development business in 2016, I have worked with clients from Europe, the
+                    United States, and Canada. Projects range from custom ecommerce to database design and data
                     visualization.
                 </p>
                 <p>Technologies I know and love:</p>

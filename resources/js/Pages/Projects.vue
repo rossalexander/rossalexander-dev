@@ -1,8 +1,8 @@
 <template>
-    <Page title="Projects">
+    <Page title="Personal Projects">
         <div class="flex flex-col space-y-24 pt-8">
 
-            <div class="w-full flex flex-col sm:flex-row sm:space-x-8">
+            <div class="w-full flex flex-col sm:flex-row sm:space-x-16">
                 <div class="w-full text-slate-400 flex flex-col space-y-6">
                     <a href="https://ivgdb.net" target="_blank"
                        class="text-rose-500 text-base font-mono block">
@@ -10,7 +10,8 @@
                     </a>
                     <p>
                         IVGDB.net (Internet Video Game Database) is a personal project that utilizes the <a
-                        class="text-rose-500 hover:text-rose-400 transition-colors" href="link">IGDB.com
+                        class="text-rose-500 hover:text-rose-400 transition-colors"
+                        href="https://api-docs.igdb.com/#about" target="_blank">IGDB.com
                         API</a>.
                         View popular, top-rated, and upcoming games and search the massive IGDB database. More
                         features coming soon.
@@ -31,8 +32,8 @@
                            style="background-image:url('/media/github.svg')">
                         </a>
 
-                        <a title="xrpairdrops.com"
-                           href="https://xrpairdrops.com" target="_blank"
+                        <a title="ivgdb.net"
+                           href="https://ivgdb.net" target="_blank"
                            class="block w-4 h-4 bg-contain bg-center bg-no-repeat"
                            style="background-image:url('/media/outside-link.svg')">
                         </a>
@@ -50,25 +51,22 @@
                 </div>
             </div>
 
-            <div class="w-full flex flex-col sm:flex-row sm:space-x-8">
+            <div class="w-full flex flex-col sm:flex-row sm:space-x-16">
                 <div class="w-full text-slate-400 flex flex-col space-y-6">
                     <a href="https://xrpairdrops.com" target="_blank"
                        class="text-rose-500 text-base font-mono block">
                         xrpAirdrops.com
                     </a>
                     <p>
-                        xrpAirdrops is a repository of data for upcoming <a
-                        href="https://www.investopedia.com/terms/a/airdrop-cryptocurrency.asp"
-                        target="_blank" class="text-rose-500 hover:text-rose-400">airdrops</a> for the xrp
-                        cryptocurrency. The site currently lists details about the airdrops, but users will soon be able
-                        to register and manage favorites nad receive notification reminders.
+                        A repository of data for upcoming airdrops for the xrp
+                        cryptocurrency. The site currently lists details about the airdrops. Users will soon be able
+                        to register and manage favorites and receive notification reminders.
                     </p>
                     <div>
                         <ul class="flex flex-row space-x-4 font-mono text-sm">
                             <li>PHP</li>
                             <li>Laravel</li>
                             <li>Vue.js</li>
-                            <li>Alpine</li>
                         </ul>
                     </div>
 
@@ -98,25 +96,23 @@
                 </div>
             </div>
 
-            <div class="w-full flex flex-col sm:flex-row sm:space-x-8">
+            <div class="w-full flex flex-col sm:flex-row sm:space-x-16">
                 <div class="w-full text-slate-400 flex flex-col space-y-6">
-                    <a href="https://xrpairdrops.com" target="_blank"
+                    <a href="https://github.com/rossalexander/sprout" target="_blank"
                        class="text-rose-500 text-base font-mono block">
-                        Sprout
+                        Sprout <small class="text-slate-500">[in early development]</small>
                     </a>
                     <p>
-                        Inspired by Laravel Sail, Sprout provides a local development environment for Roots (WordPress)
+                        Inspired by Laravel Sail, Sprout provides a local development environment for WordPress + Roots
                         that is compatible with
                         macOS, Windows (WSL2), and Linux.
                     </p>
                     <p>Install docker, and <span
-                        class="bg-slate-800 text-blue-500 text-sm p-1">sprout up</span> to get started!</p>
+                        class="bg-slate-800 text-blue-500 text-sm p-1 font-mono">sprout up</span> to start building.</p>
                     <div>
                         <ul class="flex flex-row space-x-4 font-mono text-sm">
                             <li>Shell</li>
                             <li>Docker</li>
-                            <li>Vue.js</li>
-                            <li>Alpine</li>
                         </ul>
                     </div>
 

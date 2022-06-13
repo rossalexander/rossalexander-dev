@@ -3,25 +3,17 @@
         <Tabs>
             <Tab active title="Viabold" role="Full Stack Developer">
                 <List>
-                    <ListItem>Development of custom ecommerce platforms for international organizations in the
-                        United States and Canada
-                    </ListItem>
-                    <ListItem>Database design and visualization projects for Universities in the Netherlands and
-                        Sweden
-                    </ListItem>
-                    <ListItem>Development of various web projects for universities in the Netherlands</ListItem>
+                    <ListItem>Development of custom ecommerce platforms for international organizations in the United States and Canada</ListItem>
+                    <ListItem>Development of networking platforms and project websites for academics commissioned by universities in the Netherlands and Sweden</ListItem>
+                    <ListItem>Database design and visualization project using Laravel, Vue.js, and D3.js for an interactive commodity trade database (Wageningen University)</ListItem>
                 </List>
             </Tab>
 
             <Tab title="GSS Interactive" role="Frontend Developer">
                 <List>
-                    <ListItem>Development (HTML, SCSS, Javascript) of multiple research project websites
-                        for various universities in the Netherlands
-                    </ListItem>
-                    <ListItem>Development of (HTML, SCSS, Javascript) for websites in the United States</ListItem>
-                    <ListItem>Development of (Google Maps API, HTML, SCSS, Javascript) for a travel
-                        advisor website
-                    </ListItem>
+                    <ListItem>Development of multiple research project websites for various universities in the Netherlands (HTML, SCSS, Javascript)</ListItem>
+                    <ListItem>Development of a corporate website for a consultancy firm based in the United States (HTML, SCSS, Javascript)</ListItem>
+                    <ListItem>Website design and development for a travel advisor company based in the United States and the Netherlands (Google Maps API, HTML, SCSS, Javascript)</ListItem>
                 </List>
             </Tab>
 
