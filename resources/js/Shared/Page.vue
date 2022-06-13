@@ -1,6 +1,6 @@
 <template>
     <Head><title>{{ title }}</title></Head>
-    <div class="w-full max-w-5xl mx-auto">
+    <div class="w-full px-4 sm:px-0 py-12 sm:pt-0 max-w-5xl mx-auto">
         <Title>{{ title }}</Title>
         <slot/>
     </div>

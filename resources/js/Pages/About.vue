@@ -1,7 +1,7 @@
 <template>
     <Page title="About">
-        <div class="flex">
-            <div class="mr-24 space-y-4">
+        <div class="flex flex-col sm:flex-row items-center">
+            <div class="sm:mr-24 space-y-4">
                 <p>Since launching a web-development business in 2016, I have accrued clients from Europe, the United
                     States, and Canada. Projects I've worked on range from custom ecommerce to database design and data
                     visualization.
@@ -17,8 +17,9 @@
             <div class="mt-12 sm:mt-0 w-1/2 relative">
                 <div class="aspect-square w-full absolute top-4 right-4 z-10 bg-slate-800"></div>
 
-                <div class="aspect-square w-full bg-cover bg-center bg-no-repeat z-20 relative"
-                     style="background-image:url('media/Ross-Alexander.jpg');">
+                <div
+                    class="mix-blend-lighten bg-slate-900 aspect-square w-full bg-cover bg-center bg-no-repeat z-20 relative"
+                    style="background-image:url('media/Ross-Alexander.jpg');">
                 </div>
             </div>
         </div>

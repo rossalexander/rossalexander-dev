@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen grid text-slate-300">
+    <div class="sm:h-screen sm:grid text-slate-300">
         <header>
             <Nav/>
         </header>
