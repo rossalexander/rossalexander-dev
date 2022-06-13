@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
     @inertiaHead
 </head>
-<body class="relative w-full h-screen bg-slate-900 text-slate-300 antialiased">
+<body class="antialiased bg-slate-900">
 @inertia
 </body>
 </html>

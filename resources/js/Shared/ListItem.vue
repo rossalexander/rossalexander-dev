@@ -1,7 +1,7 @@
 <template>
-    <li class="relative">
+    <li class="relative pl-8">
             <span
-                class="before:absolute before:content-['▹'] before:text-rose-500 before:left-0 pl-6 font-mono">
+                class="flex items-center before:absolute before:content-['▹'] before:text-2xl before:text-rose-500 before:left-0 font-mono">
                 <slot/>
             </span>
     </li>
