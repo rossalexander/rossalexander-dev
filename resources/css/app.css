@@ -7,3 +7,15 @@
         @apply text-rose-500 hover:text-rose-400 transition-colors;
     }
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+[x-cloak] {
+    display: none !important;
+}
+
+.flip {
+    transform: rotateX(-180deg);
+}

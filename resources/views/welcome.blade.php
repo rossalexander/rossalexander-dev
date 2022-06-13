@@ -3,9 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>RossAlexander.dev</title>
-
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="/js/app.js"></script>
@@ -18,32 +16,17 @@
           rel="stylesheet">
     {{--    Roboto Mono--}}
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
-
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-
-        [x-cloak] {
-            display: none !important;
-        }
-
-        .flip {
-            transform: rotateX(-180deg);
-        }
-    </style>
-
     <!-- Styles -->
     <link rel="stylesheet" href="/css/app.css">
 </head>
-<body class="antialiased bg-slate-900 relative">
 
+<body class="antialiased bg-slate-900 relative">
 @include('navigation')
 @include('intro')
-@include('about')f
+@include('about')
 @include('experience')
+@include('projects')
 @include('connect')
-
 <footer class="bg-slate-900 w-full mx-auto p-8 text-center text-slate-500">
     <div class="max-w-4xl b mx-auto flex flex-col items-center space-y-4 justify-center">
         <p class="text-sm font-mono">Developed by Ross Alexander</p>
@@ -74,7 +57,7 @@
 
 <script>
     let x = 0;
-    const sections = ['', 'about', 'experience', 'connect'];
+    const sections = ['', 'about', 'experience', 'projects', 'connect'];
 
     function myScroll() {
         $('#ping').remove();
@@ -85,7 +68,7 @@
         if (x === 0) {
             $('#scroll').toggleClass('flip')
         }
-        if (x === 3) {
+        if (x === 4) {
             $('#scroll').toggleClass('flip')
         }
         location.href = "#" + sections[x]
