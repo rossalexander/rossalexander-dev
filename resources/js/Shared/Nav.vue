@@ -1,18 +1,15 @@
 <template>
-    <nav>
-        <Link href="/logout" method="post" as="button" type="button">About</Link>
-        <Link href="/logout" method="post" as="button" type="button">Experience</Link>
-        <Link href="/logout" method="post" as="button" type="button">Projects</Link>
-        <Link href="/logout" method="post" as="button" type="button">Connect</Link>
+    <nav class="flex my-4 space-x-4">
+        <NavLink href="/about" :active="$page.component === 'About'">About</NavLink>
     </nav>
 </template>
 
 <script>
-import {Link} from '@inertiajs/inertia-vue3';
+import NavLink from "../Shared/NavLink";
 
 export default {
     name: "Nav",
-    components: {Link}
+    components: {NavLink}
 }
 </script>
 
