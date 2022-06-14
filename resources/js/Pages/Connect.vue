@@ -2,7 +2,7 @@
     <Page title="">
 
         <div class="text-center">
-            <p></p>Let's connect: <a href="mailto:email@rossalexander.dev" class="text-rose-500 hover:text-rose-400">email@rossalexander.dev</a>
+            <p></p>Let's connect: <span class="text-rose-500">RossAAlexander@gmail.com</span>
 
             <div class="mt-4 flex items-center justify-center space-x-4">
                 <a title="github.com/rossalexader" href="https://github.com/rossalexander" target="_blank"
