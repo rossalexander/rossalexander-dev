@@ -4,6 +4,43 @@
 
             <div class="w-full flex flex-col sm:flex-row sm:space-x-16">
                 <div class="w-full text-slate-400 flex flex-col space-y-6">
+                    <a href="https://missingpeople.nl" target="_blank"
+                       class="text-rose-500 text-base font-mono block">
+                        MissingPeople.nl
+                    </a>
+                    <p>
+                        An interactive geovisualization of missing people from the Netherlands.
+                    </p>
+                    <div>
+                        <ul class="flex flex-row space-x-4 font-mono text-sm">
+                            <li>PHP</li>
+                            <li>JavaScript</li>
+                            <li>Laravel</li>
+                        </ul>
+                    </div>
+
+                    <div class="flex space-x-4">
+                        <a title="ivgdb.net"
+                           href="https://missingpeople.nl" target="_blank"
+                           class="block w-4 h-4 bg-contain bg-center bg-no-repeat"
+                           style="background-image:url('/media/outside-link.svg')">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Image -->
+                <div class="mt-12 sm:mt-0 w-full relative">
+                    <div class="aspect-video w-full absolute top-4 -right-4 z-10 bg-slate-800"></div>
+
+                    <a target="_blank" href="https://missingpeople.nl" title="MissingPeeople.nl"
+                       class="hover:animate-pulse block aspect-video w-full bg-cover bg-center bg-no-repeat z-20 relative"
+                       style="background-image:url('media/missingnl.jpg');">
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-full flex flex-col sm:flex-row sm:space-x-16">
+                <div class="w-full text-slate-400 flex flex-col space-y-6">
                     <a href="https://ivgdb.net" target="_blank"
                        class="text-rose-500 text-base font-mono block">
                         ivgdb.net
