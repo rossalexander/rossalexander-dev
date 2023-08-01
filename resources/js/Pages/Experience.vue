@@ -1,6 +1,11 @@
 <template>
     <Page title="Experience">
         <Tabs>
+            <Tab active title="Farm21" role="Backend Developer">
+                <List>
+                    <ListItem>Collaborated within a Scrum framework as a Backend Developer to design and implement new platform features, diagnose and resolve software bugs, and proactively minimize technical debt for an agritech company dedicated to promoting sustainable resource use.</ListItem>
+                </List>
+            </Tab>
             <Tab active title="Viabold" role="Full Stack Developer">
                 <List>
                     <ListItem>Development of custom ecommerce platforms for international organizations in the United States and Canada</ListItem>
