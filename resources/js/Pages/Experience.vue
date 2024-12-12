@@ -1,6 +1,12 @@
 <template>
     <Page title="Experience">
         <Tabs>
+            <Tab active title="NS" role="Senior Cloud Engineer">
+                <List>
+                    <ListItem>Responsible for all things infra, cloud, Azure.</ListItem>
+                </List>
+            </Tab>
+
             <Tab active title="Farm21" role="Backend Developer">
                 <List>
                     <ListItem>Collaborated within a Scrum framework as a Backend Developer to design and implement new platform features, diagnose and resolve software bugs, and proactively minimize technical debt for an agritech company dedicated to promoting sustainable resource use.</ListItem>
