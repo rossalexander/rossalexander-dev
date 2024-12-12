@@ -3,7 +3,7 @@
         <Tabs>
             <Tab active title="NS" role="Senior Cloud Engineer">
                 <List>
-                    <ListItem>Responsible for all things infra, cloud, Azure.</ListItem>
+                    <ListItem>Responsible for all things related to infrastructure, cloud, Azure.</ListItem>
                 </List>
             </Tab>
 
